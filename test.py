@@ -6,7 +6,7 @@ from PIL import Image
 from PyPDF2 import PdfFileReader
 
 if len(sys.argv) <= 1:
-   print("Usege: python test.py file1 [file2...]\n");
+   print("Usage: python test.py file1 [file2...]\n");
 
 def processWords(words):
     for w in words:
